@@ -1,0 +1,93 @@
+/* .box {
+    border: 1px solid black;
+    height: 200px;
+    width: 150px;
+    background-image: linear-gradient(red,blue);
+    background-image: linear-gradient(to right,red,blue);
+    background-image: linear-gradient(to bottom right, red,blue,white, green);
+    background-image: linear-gradient(to bottom, rgba(255,0,0,0)rgba(0,0,225,1));
+}
+.mydiv {
+        border: 3px solid black;
+        margin: 10px;
+        height: 300px;
+        background-image: radial-gradient(circle, red, blue, pink,orange);
+        background-image: radial-gradient(yellow 5%, green 35%, white 6%);
+}
+h1 {
+    text-shadow: 3px 3px 3px lightblue;
+    text-shadow: 3px 3px 3px blue, 5px 5px 5px red;
+}
+.box1 {
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+    box-shadow: 10px 10px 15px lightcoral;
+    color: black;
+}
+.box2 {
+    border: 1px solid black;
+    max-height: 100px;
+    overflow: scroll;
+}
+.box3 {
+    border: 1px solid black;
+    min-height: 100px;
+    overflow: scroll;
+}
+.box4 {
+    height: 50px;
+    border: 1px solid black;
+    overflow: auto;
+} */
+/* .box5 {
+    background-color: aqua; */
+    /* transform: translate(100px,500px); */
+    /* transform: rotate(-45deg); */
+    /* margin: 200px; */
+    /* transform: scale(10,10); */
+    /* transform: skew(145deg);
+} */
+/* p {
+    position:static;
+} */
+/* .wrapper {
+    width: 100vw;
+    height: 2000px;
+    background-color: yellow;
+}
+div{
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    background-color:lightslategray;
+    border: 2px solid black;
+}
+#third {
+    position: relative;
+    top: 100px;
+    left: 50px;
+} */
+/* #first {
+    position: fixed;
+} */
+/* #second {
+    position: absolute;
+}
+#fourth {
+    position: sticky;
+    top:0px ;
+} */
+div {
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 1px solid black;
+    margin: 250px;
+}
+.translated {
+    transform: perspective(10px) translateZ(-10px);
+}
+.scaled {
+    transform: perspective(350px) scaleZ(6) rotateX(45deg) rotateY(30deg);
+}

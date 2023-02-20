@@ -1,0 +1,85 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        table, tr,th,td{
+            border: 2px solid black;
+            border-collapse:collapse;
+            text-align: center;
+            font-size: 15px;
+            padding: 5px;
+        }
+        td:hover{
+            background-color:rgb(233, 154, 170);
+        }
+        .eight{
+            background-color: rgb(249, 249, 108);
+        }
+        .five{
+            background-color: rgb(202, 184, 243);
+        }
+    </style>
+</head>
+<body>
+    <center>
+     <table>
+        <thead>
+            <tr>
+                <th rowspan="3">Day</th>
+                <th colspan="3">Seminar</th>
+            </tr>
+
+            <tr>
+                <th colspan="2">Schedule</th>
+                <th rowspan="2">Topic</th>
+            </tr>
+            <tr>
+                <th>Begin</th>
+                <th>End</th>
+            </tr>
+        </thead>
+                 <tr>
+                    <td  rowspan="2">Monday</td>
+                    <td  rowspan="2" class="eight">8.00a.m.</td>
+                    <td  rowspan="2" class="five">5.00a.m.</td>
+                    <td>Introduction to Xml</td>
+                </tr>
+           
+                <tr>
+                    <td>Valodity DTD and Relax NG/td>
+                </tr>
+
+                <tr>
+                    <td rowspan="3">Tuesday</td>
+                    <td class="eight">8.00 a.m.</td>
+                    <td class="eight">11.00 a.m.</td>
+                    <td> XPath</td>
+                </tr>
+                <tr>
+                    <td class="eight">11.00 a. m.</td>
+                    <td style="background-color: rgb(163, 250, 169);">2.00 p.m.</td>
+                    <td rowspan="2">XML Transformations</td>
+                </tr>
+                <tr>
+                    <td style="background-color: rgb(163, 250, 169);">2.00 p.m.</td>
+                    <td class="five">5.00 p.m.</td>
+                </tr>
+
+                <tr>
+                    <td>
+                        Wednesday
+                    </td>
+                    <td class="eight">8.00 a.m.</td>
+                    <td style="background-color: rgb(163, 250, 169);">12.00 p.m.</td>
+                    <td>XSL Formatting Object</td>
+                </tr>
+        <tbody>
+
+        </tbody>
+    </table>
+</center>
+</body>
+</html>

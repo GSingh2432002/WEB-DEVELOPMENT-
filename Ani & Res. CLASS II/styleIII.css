@@ -1,0 +1,46 @@
+.container {
+    height: 215px;
+    width: 100%;
+    background-color: yellow;
+    border: 2px solid red;
+}
+.box {
+    height: 212px;
+    width: 212px;
+    border: 2px solid green;
+    background-color: aqua;
+
+    animation:Gaurav;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+    animation-delay: 1s;
+    animation-direction: alternate;
+}
+@keyframes Gaurav {
+    0% {
+        width: 212px;
+        background-color: aquamarine;
+    }
+    30% {
+        width: 35%;
+        background-color: lightcoral;
+    }
+    65% {
+        width: 70%;
+        background-color: blue;
+    }
+    100% {
+        width: 100%;
+        background-color: yellowgreen;
+    }
+}
+
+/* @keyframes Gaurav {
+    from {
+        width: 212;
+    }
+    to {
+        width: 800px;
+    }
+} */

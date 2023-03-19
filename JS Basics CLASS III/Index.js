@@ -76,7 +76,7 @@ console.log("kya Haal Chaal");
 // console.log(combined);
 
 //Slicing Elements
-let marks = [10,20,30,40,50,60,70,80];
+// let marks = [10,20,30,40,50,60,70,80];
 // let sliced = marks.slice();
 // let sliced = marks.slice(2);
 // let sliced = marks.slice(2,6);
@@ -92,7 +92,7 @@ let marks = [10,20,30,40,50,60,70,80];
 // let another = [...combined];
 
 //Iterating an Array
-let arr = [10,20,30,40,50];
+// let arr = [10,20,30,40,50];
 // for(let value of arr) {
 //     console.log(value);
 // }
@@ -114,9 +114,45 @@ let arr = [10,20,30,40,50];
 // console.log(joined);
 
 //Sorting Of Array
-let numbers = [10,100,30,490,50];
-numbers.sort();
+// let numbers = [10,100,30,490,50];
+// numbers.sort()
+// console.log(numbers);
 
-console.log(numbers);
+// numbers.reverse()
+// console.log(numbers);
 
+//Filtering Arrays
+// let numbers = [1,2,-3,4,-6]
+// let filtered = numbers.filter(function(value){
+//     return value >= 0;
+// });
+// console.log(filtered);
 
+//Filtering Arrays using Arrow Function
+// let numbers = [1,2,-3,4,-6]
+// let filtered = numbers.filter(value => value <= 0);
+// console.log(filtered);
+ 
+//Mapping in Arrays
+//Array ke upar Map Function laga do, Map ke upar predicate Function laga do, Predicate function ko Arrow function me kar do.
+// let numbers = [7,8,9,10];
+// console.log(numbers);
+
+// let items = numbers.map(values =>'student_no' + values);
+// console.log(items);
+
+//Mapping with Objects
+// let numbers = [1,2,-5,-89];
+// let filtered = numbers.filter(value => value >=0);
+
+// let items = filtered.map(num => {value: num});
+// console.log(items);
+
+//Chaining
+let numbers = [1,2,-5,-89];
+
+let items = numbers
+            .filter(value => value >=0)
+            .map(num => {value: num});
+            
+console.log(items);

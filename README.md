@@ -14,5 +14,7 @@ This repository contains all the codes of classes of Love Babbar Bhaiya using ME
 <br>
 .
 <br>
-This course is ending here :)
-
+This course is ending here :- 27.02.2024
+<br>
+:)
+<br>
